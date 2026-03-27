@@ -139,7 +139,57 @@ footer{background:var(--text);padding:48px;text-align:center;}
 </style>
 </head>
 <body>
-<div class="block reveal">
+
+<nav>
+  <div class="nav-logo">FANTS<span>.</span></div>
+  <ul class="nav-links">
+    <li><a href="#data">現状データ</a></li>
+    <li><a href="#analysis">データ分析</a></li>
+    <li><a href="#thumb">サムネ分析</a></li>
+        <li><a href="#confirm">コンセプト選択</a></li>
+  </ul>
+  <div class="nav-date">2025 — CONFIDENTIAL</div>
+</nav>
+
+<div id="hero">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">FANTS / CHANNEL STRATEGY PROPOSAL / 2025</p>
+    <h1 class="hero-title">CHANNEL<br><em>STRATEGY</em><br>PROPOSAL</h1>
+    <p class="hero-sub">28日間のチャンネルデータをもとに、現状の分析とこれからの方針をまとめました。</p>
+    <div class="hero-toc">
+      <span class="toc-badge on">01 現状データ</span>
+      <span class="toc-badge">02 データ分析</span>
+      <span class="toc-badge">03 サムネ分析</span>
+      <span class="toc-badge">04 コンセプト選択</span>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<section id="data">
+  <div class="sec-eyebrow reveal"><span>01</span> / 現状データと進展状況</div>
+  <h2 class="sec-title reveal">28日間の<br>チャンネル実績</h2>
+
+  <div class="stat-row cols-3 reveal">
+    <div class="stat-card m">
+      <p class="stat-label">総インプレッション数</p>
+      <p class="stat-val col-m">360K</p>
+      <p class="stat-note">28日間でサムネが表示された回数。このうち約3.2万回クリックされている</p>
+    </div>
+    <div class="stat-card m">
+      <p class="stat-label">平均クリック率（CTR）</p>
+      <p class="stat-val col-m">8.88%</p>
+      <p class="stat-note">業界平均5〜6%超え。コンテンツへの興味は<strong>すでに十分ある</strong></p>
+    </div>
+    <div class="stat-card m">
+      <p class="stat-label">平均視聴維持率</p>
+      <p class="stat-val col-m">23.3%</p>
+      <p class="stat-note">長尺帯で23%は高水準。<strong>見始めた人は最後まで見ている</strong></p>
+    </div>
+  </div>
+
+  <div class="block reveal">
     <p class="block-label">再生数について — 業界比較</p>
     <div class="stat-row cols-2" style="margin-bottom:0;">
       <div class="stat-card">
@@ -271,7 +321,44 @@ footer{background:var(--text);padding:48px;text-align:center;}
   </div>
 </section>
 
-  <div class="block reveal">
+<div class="block reveal">
+    <p class="block-label">ACTOR SELECTION — 演者選定基準</p>
+    <p style="font-size:12px;color:var(--mid);font-weight:300;line-height:1.8;margin-bottom:16px;">伸びているチャンネルに共通する演者の特徴を基準として整理。先方に演者を選んでいただく際の判断軸として活用できます。</p>
+    <div style="overflow-x:auto;">
+      <table style="width:100%;border-collapse:collapse;font-size:12px;">
+        <thead><tr>
+          <th style="text-align:left;padding:10px 14px;background:var(--surface);color:var(--light);font-weight:700;font-size:10px;letter-spacing:1px;font-family:'Montserrat',sans-serif;border-bottom:1px solid var(--border);width:30%;">基準</th>
+          <th style="text-align:left;padding:10px 14px;background:var(--surface);color:var(--mint);font-weight:700;font-size:10px;letter-spacing:1px;font-family:'Montserrat',sans-serif;border-bottom:1px solid var(--border);width:35%;">◎ 向いている</th>
+          <th style="text-align:left;padding:10px 14px;background:var(--surface);color:rgba(255,143,171,0.8);font-weight:700;font-size:10px;letter-spacing:1px;font-family:'Montserrat',sans-serif;border-bottom:1px solid var(--border);width:35%;">△ 要工夫</th>
+        </tr></thead>
+        <tbody>
+          <tr style="border-bottom:1px solid var(--border);">
+            <td style="padding:12px 14px;color:var(--text);font-weight:600;">職人性・専門性</td>
+            <td style="padding:12px 14px;color:var(--mid);font-weight:300;">明確な肩書き・専門ジャンルがある</td>
+            <td style="padding:12px 14px;color:var(--mid);font-weight:300;">ジャンルが曖昧・広すぎる</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border);background:rgba(255,255,255,0.02);">
+            <td style="padding:12px 14px;color:var(--text);font-weight:600;">逆転ストーリー</td>
+            <td style="padding:12px 14px;color:var(--mid);font-weight:300;">どん底・挫折・転換点の経験がある</td>
+            <td style="padding:12px 14px;color:var(--mid);font-weight:300;">順風満帆のみで葛藤がない</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border);">
+            <td style="padding:12px 14px;color:var(--text);font-weight:600;">数字で語れる</td>
+            <td style="padding:12px 14px;color:var(--mid);font-weight:300;">売上・年収・年数など具体的な数字がある</td>
+            <td style="padding:12px 14px;color:var(--mid);font-weight:300;">定性的な話のみで数字が出ない</td>
+          </tr>
+          <tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:12px 14px;color:var(--text);font-weight:600;">視聴者との共感軸</td>
+            <td style="padding:12px 14px;color:var(--mid);font-weight:300;">「自分もなれるかも」と思わせる等身大感</td>
+            <td style="padding:12px 14px;color:var(--mid);font-weight:300;">遠すぎる存在・再現性が感じられない</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:11px;color:var(--light);font-weight:300;margin-top:10px;line-height:1.65;">※ 参考チャンネル：<a href="https://www.youtube.com/@shigoto-zukan-Japan" style="color:var(--mint);text-decoration:none;" target="_blank">仕事図鑑</a> / <a href="https://www.youtube.com/@mosh1180" style="color:var(--mint);text-decoration:none;" target="_blank">MOSH</a> / <a href="https://www.youtube.com/@shigoto_reach" style="color:var(--mint);text-decoration:none;" target="_blank">しごとリーチ</a> / <a href="https://www.youtube.com/@sub_baseec" style="color:var(--mint);text-decoration:none;" target="_blank">サブスクベース</a> の演者傾向を元に整理</p>
+  </div>
+
+<div class="block reveal">
     <p class="block-label">演者様の宣伝が、チャンネルを動かす最大のエンジン</p>
     <div class="grad-bar" style="margin-bottom:16px;">
       <strong>データが示すこと：</strong>CTR 29%・視聴維持率 26.7%——コンテンツの品質は申し分ない。再生数が伸び切らなかった要因は、外部への流入経路がなかった点のみ。<strong>つまり演者様の宣伝が、初動を左右する最大の変数になる。</strong>
@@ -295,47 +382,7 @@ footer{background:var(--text);padding:48px;text-align:center;}
     </div>
   </div>
 
-  <div class="block reveal">
-    <p class="block-label">ACTOR SELECTION — 演者選定基準</p>
-    <p style="font-size:12px;color:var(--mid);font-weight:300;line-height:1.8;margin-bottom:16px;">伸びているチャンネルに共通する演者の特徴を基準として整理。先方に演者を選んでいただく際の判断軸として活用できます。</p>
-    <div style="overflow-x:auto;">
-      <table style="width:100%;border-collapse:collapse;font-size:12px;">
-        <thead>
-          <tr>
-            <th style="text-align:left;padding:10px 14px;background:var(--surface);color:var(--light);font-weight:700;font-size:10px;letter-spacing:1px;font-family:'Montserrat',sans-serif;border-bottom:1px solid var(--border);width:30%;">基準</th>
-            <th style="text-align:left;padding:10px 14px;background:var(--surface);color:var(--mint);font-weight:700;font-size:10px;letter-spacing:1px;font-family:'Montserrat',sans-serif;border-bottom:1px solid var(--border);width:35%;">◎ 向いている</th>
-            <th style="text-align:left;padding:10px 14px;background:var(--surface);color:rgba(255,143,171,0.8);font-weight:700;font-size:10px;letter-spacing:1px;font-family:'Montserrat',sans-serif;border-bottom:1px solid var(--border);width:35%;">△ 要工夫</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr style="border-bottom:1px solid var(--border);">
-            <td style="padding:12px 14px;color:var(--text);font-weight:600;">職人性・専門性</td>
-            <td style="padding:12px 14px;color:var(--mid);font-weight:300;line-height:1.65;">明確な肩書き・専門ジャンルがある</td>
-            <td style="padding:12px 14px;color:var(--mid);font-weight:300;line-height:1.65;">ジャンルが曖昧・広すぎる</td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--border);background:rgba(255,255,255,0.02);">
-            <td style="padding:12px 14px;color:var(--text);font-weight:600;">逆転ストーリー</td>
-            <td style="padding:12px 14px;color:var(--mid);font-weight:300;line-height:1.65;">どん底・挫折・転換点の経験がある</td>
-            <td style="padding:12px 14px;color:var(--mid);font-weight:300;line-height:1.65;">順風満帆のみで葛藤がない</td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--border);">
-            <td style="padding:12px 14px;color:var(--text);font-weight:600;">数字で語れる</td>
-            <td style="padding:12px 14px;color:var(--mid);font-weight:300;line-height:1.65;">売上・年収・年数など具体的な数字がある</td>
-            <td style="padding:12px 14px;color:var(--mid);font-weight:300;line-height:1.65;">定性的な話のみで数字が出ない</td>
-          </tr>
-          <tr style="background:rgba(255,255,255,0.02);">
-            <td style="padding:12px 14px;color:var(--text);font-weight:600;">視聴者との共感軸</td>
-            <td style="padding:12px 14px;color:var(--mid);font-weight:300;line-height:1.65;">「自分もなれるかも」と思わせる等身大感</td>
-            <td style="padding:12px 14px;color:var(--mid);font-weight:300;line-height:1.65;">遠すぎる存在・再現性が感じられない</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <p style="font-size:11px;color:var(--light);font-weight:300;margin-top:10px;line-height:1.65;">※ 参考チャンネル：<a href="https://www.youtube.com/@shigoto-zukan-Japan" style="color:var(--mint);text-decoration:none;" target="_blank">仕事図鑑</a> / <a href="https://www.youtube.com/@mosh1180" style="color:var(--mint);text-decoration:none;" target="_blank">MOSH</a> / <a href="https://www.youtube.com/@shigoto_reach" style="color:var(--mint);text-decoration:none;" target="_blank">しごとリーチ</a> / <a href="https://www.youtube.com/@sub_baseec" style="color:var(--mint);text-decoration:none;" target="_blank">サブスクベース</a> の演者傾向を元に整理</p>
-  </div>
-
-
-<div class="divider"></div>
+  <div class="divider"></div>
 
 <!-- ═══ THUMBNAIL ANALYSIS ═══ -->
 <section id="thumb">
@@ -479,10 +526,7 @@ footer{background:var(--text);padding:48px;text-align:center;}
     </div>
   </div>
 
-  
-
-</body>
-</html  <div class="block reveal">
+  <div class="block reveal">
     <p class="block-label">VIDEO USAGE — 動画の活用方針</p>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:14px;">
       <div style="background:var(--bg);border:1.5px solid var(--border);border-top:4px solid var(--yellow);border-radius:14px;padding:22px 18px;">
@@ -509,7 +553,40 @@ footer{background:var(--text);padding:48px;text-align:center;}
       </div>
     </div>
   </div>
+</section>
 
->
+<footer>
+  <p class="footer-logo">CHANNEL STRATEGY PROPOSAL</p>
+  <p class="footer-text">FANTS — 2025 — CONFIDENTIAL</p>
+</footer>
+
+<script>
+const videos=[
+  {title:'森 様',role:'着物スタイリスト',subs:92,impressions:191039},
+  {title:'ママちゃん 様',role:'心理カウンセラー',subs:134,impressions:166241},
+  {title:'華香ゆう 様',role:'元宝塚',subs:3,impressions:1803},
+  {title:'あいみ 様',role:'発酵オタクママ',subs:1,impressions:241}
+];
+const maxImp=Math.max(...videos.map(v=>v.impressions));
+const maxSubs=Math.max(...videos.map(v=>v.subs));
+const ratioRows=document.getElementById('ratioRows');
+videos.forEach(v=>{
+  const impPct=(v.impressions/maxImp*100).toFixed(1);
+  const subsPct=(v.subs/maxSubs*100).toFixed(1);
+  ratioRows.innerHTML+=`<div class="ratio-row"><span class="ratio-name">${v.title}<small>${v.role}</small></span><div class="ratio-bar-wrap"><div class="ratio-bg"><div class="ratio-imp" style="width:${impPct}%"></div><div class="ratio-reg" style="width:${subsPct}%"></div></div><span class="ratio-nums">${v.impressions.toLocaleString()} → +${v.subs}</span></div></div>`;
+});
+Chart.defaults.color='#9999bb';
+Chart.defaults.font.family="'Noto Sans JP', sans-serif";
+new Chart(document.getElementById('subsChart').getContext('2d'),{
+  type:'bar',
+  data:{
+    labels:videos.map(v=>`${v.title}（${v.role}）`),
+    datasets:[{data:videos.map(v=>v.subs),backgroundColor:['rgba(78,205,196,0.7)','rgba(78,205,196,0.7)','rgba(255,143,171,0.6)','rgba(255,143,171,0.6)'],borderRadius:6,label:'登録者数'}]
+  },
+  options:{indexAxis:'y',responsive:true,plugins:{legend:{display:false}},scales:{x:{grid:{color:'rgba(0,0,0,0.04)'},ticks:{color:'#aaa',font:{size:10}}},y:{grid:{display:false},ticks:{color:'#666',font:{size:11}}}}}
+});
+const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');});},{threshold:0.07});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
 </body>
 </html>
